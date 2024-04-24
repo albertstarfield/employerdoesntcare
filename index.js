@@ -27,10 +27,12 @@ const makeCommit = n => {
         const DATE = moment().subtract(1, 'y').add(1, 'd')
         .add (x, 'w').add(y, 'd').format();
     const data = {
-        date: DATE,
+        data_sof: getRandomInt(0,9999999999999),
+        dateTargetTimeTravel: DATE,
         data: "Random Noise Sampling Sample",
+        data_eof: getRandomInt(0,9999999999999),
     }
-        console.debug("Adding Random Noise Sampling into Git Submission Experiment", DATE);
+        console.debug("Adding Random Noise Sampling into Git Submission Experiment", data);
         jsonfile.writeFile(FILE_PATH, data, ()=>{
         simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE },
         makeCommit.bind(this, --n));
