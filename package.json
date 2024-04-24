@@ -1,0 +1,17 @@
+{
+  "name": "quantityoverquality",
+  "version": "1.0.0",
+  "description": "I'm a failed to launch person, not even get a space for a job on an entry point. So I can't say that I'm a professional since a professional means you have to be a employee and i'm not able to get through the first wall so i can't be my even minimal expectation of what my friends that exceeds me in any shape or forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-git":"^3.24.0",
+    "jsonfile":"^6.1.0",
+    "moment" :"^2.30.1",
+    "random" :"^4.1.0"
+  }
+}
