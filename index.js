@@ -22,17 +22,18 @@ const makeCommit = n => {
     if(n==0){
         return simpleGit().push()
     }
-    const x = getRandomInt(0,54);
-    const y = getRandomInt(0,6);
-    const DATE = moment().subtract(1, 'y').add(1, 'd')
-    .add (x, 'w').add(y, 'd').format();
+        const x = getRandomInt(0,54);
+        const y = getRandomInt(0,6);
+        const DATE = moment().subtract(1, 'y').add(1, 'd')
+        .add (x, 'w').add(y, 'd').format();
     const data = {
-    date: DATE
+        date: DATE,
+        data: "Random Noise Sampling Sample",
     }
-    console.debug("Take this!", DATE);
-    jsonfile.writeFile(FILE_PATH, data, ()=>{
-    simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE },
-    makeCommit.bind(this, --n));
+        console.debug("Adding Random Noise Sampling into Git Submission Experiment", DATE);
+        jsonfile.writeFile(FILE_PATH, data, ()=>{
+        simpleGit().add([FILE_PATH]).commit(DATE, {'--date': DATE },
+        makeCommit.bind(this, --n));
     });
     }
     makeCommit(100);
