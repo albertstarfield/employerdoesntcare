@@ -1,7 +1,7 @@
 const jsonfile = require('jsonfile');
 const moment = require ('moment');
 const simpleGit = require('simple-git');
-const FILE_PATH = './data. json';
+
 
 function getRandomInt(min, max) {
     min = Math.ceil(min); // Round up the minimum value
@@ -19,6 +19,7 @@ function getRandomInt(min, max) {
 
 
 const makeCommit = n => {
+    const FILE_PATH = `./fileNoiseChunks/${getRandomInt(1,999999999)}_samplerNoise_fileChunks.json`;
     if(n==0){
         return simpleGit().push()
     }
