@@ -1,5 +1,5 @@
-# Quantity Over Quality
+# Seeking Opportunities in [Industry/Field]
 
-This project demonstrates a fundamental principle valued by employers across industries: prioritizing quantity over singularly focusing on product intricacy. In today's competitive landscape, a high volume of work often outweighs individual product intricacies. Failure to deliver on quantity can result in your resume being disregarded without further consideration. 
+I'm a failed to launch person, not even get a space for a job on an entry point. So I can't say that I'm a professional since a professional means you have to be a employee and i'm not able to get through the first wall so i can't be my even minimal expectation of what my friends that exceeds me in any shape or forms.
 
-
+A proof that I will give to you, what employer wanted throughout the industry will care mostly about quantity not a single point of product and how intricate it is or innovative even on early stage, Low quantity means your Resume will thrown into trash, without a second of thinking.
