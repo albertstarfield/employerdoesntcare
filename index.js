@@ -24,7 +24,7 @@ const makeCommit = n => {
     }
         const x = getRandomInt(0,54);
         const y = getRandomInt(0,6);
-        const DATE = moment().subtract(1, 'y').add(1, 'd')
+        const DATE = moment().subtract(getRandomInt(1,6), 'y').add(getRandomInt(1,27), 'd')
         .add (x, 'w').add(y, 'd').format();
     const data = {
         data_sof: getRandomInt(0,9999999999999),
